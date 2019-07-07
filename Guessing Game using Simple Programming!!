@@ -1,0 +1,11 @@
+a=3
+b=int(input("Plesae guess the right no:  "))
+
+if b==a:
+    print("You guess that right")
+
+else:
+    print("Try again")
+    
+    
+# This is simple and easily understandable Guessing Programming Codes.Plaese Check yourself!! No Using all the long codes!!
