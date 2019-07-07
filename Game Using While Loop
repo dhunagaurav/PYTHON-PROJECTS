@@ -1,0 +1,12 @@
+a="3"
+guess=""
+
+while guess!=a:
+    guess = input("Enter the guess no between 1-10: ")
+    if guess>a:
+       print("A is smaller than the no you entered")
+    elif guess<a:
+        print("A is greater than the no you entered")
+
+else:
+       print("You Win")
